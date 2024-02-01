@@ -26,7 +26,6 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MovieViewH
         this.onReachEndListener = onReachEndListener;
     }
 
-//    ----------------------------------------------
     private OnMovieClickListener onMovieClickListener;
 
     public void setOnMovieClickListener(OnMovieClickListener onMovieClickListener) {
